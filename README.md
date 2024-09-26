@@ -1,4 +1,8 @@
+# Modeling Shopping Mall Dales Data using Polynomial Regression
+
 This project focuses on a comprehensive analysis of consumer shopping behavior across retail malls in Istanbul from 2021 to 2023, using a dataset of 100,000 invoices. The analysis includes time series visualizations, density plots, and regression modeling to uncover trends in customer preferences, spending habits, and category-wise sales. Model selection was guided by statistical metrics like RSS, log-likelihood, AIC, and BIC, with Model 3 emerging as the optimal predictor for sales data. The project also implements Approximate Bayesian Computation (ABC) to explore posterior distributions for model parameters.
+
+### Language Used : R Programming Language
 
 ## Images
 
