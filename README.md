@@ -89,15 +89,15 @@ Another correlation graph can be seen in following figure 14 between category wh
 
 In this section of the report, random variable or estimator, often denoted as "θ," helps us understand various aspects of a distribution when we lack actual values. Further the value of "θ," can be multiple, as a result, to find the best fit model we can utilize least squares method. Least square method helps us to identify a line that is best fit as well as showcasing the relation between the independent and the dependent variables (Brooks et al, 1998). Hence, to find the least square we will use the following formula:
 
-![16](https://github.com/user-attachments/assets/f0cd5eae-e4da-4190-ab74-3b78980d09e0)
+![16value](https://github.com/user-attachments/assets/11528835-fa88-4305-9707-36a30c95b30f)
 
 Further, to find the least square, we first we arrange an input data and combine it with a constant, that are also called predictor variables. In this case we have used "age", "category", "price", and "payment method" as the predictor variables and "quantity" as the response variable. Doing so we obtained the following output which is shown by figure 16. From the following figure 16, we can identify the value of "θhat" for model 1 to be as follows:
 
-![17](https://github.com/user-attachments/assets/cda919b5-b635-4990-9627-28a31b7d89fe)
+![16](https://github.com/user-attachments/assets/f0cd5eae-e4da-4190-ab74-3b78980d09e0)
 
 Likewise, the following figure 17 is the output for value of "θhat" for model 2, which is:
 
-![16value](https://github.com/user-attachments/assets/11528835-fa88-4305-9707-36a30c95b30f)
+![17](https://github.com/user-attachments/assets/cda919b5-b635-4990-9627-28a31b7d89fe)
 
 Furthermore, the following figure 18 is the output for value of "θhat" for model 3, which is:
 
