@@ -75,17 +75,13 @@ This section is dedicated in showing the correlation of the input customer data 
 
 ![13](https://github.com/user-attachments/assets/723290af-6728-4800-b00e-734bf10d1bc9)
 
-Furthermore, there is a positive correlation between price and quantity in the following figure 13. This means that when the quantity increases the price also increase, which is what normally happens. However, under certain situation this might not be the criteria as there might be factors influencing both the variables. For example, if the product is new and trendy product then the price will be high regardless of the quantity.
+Furthermore, there is a positive correlation between price and quantity in the following figure 13. This means that when the quantity increases the price also increase, which is what normally happens. However, under certain situation this might not be the criteria as there might be factors influencing both the variables. For example, if the product is new and trendy product then the price will be high regardless of the quantity. Another correlation graph can be seen in following figure 14 between category which is the x-axis and quantity, y-axis. There are all together 8 different category type as shown in the following graph. Further the blue dot represents the data point for each of the category type whereas the red line shows the average of each category brought which is 3.
 
 ![14](https://github.com/user-attachments/assets/b0971f3e-d8ab-4f8f-b3be-8d001e1dfa48)
 
-Another correlation graph can be seen in following figure 14 between category which is the x-axis and quantity, y-axis. There are all together 8 different category type as shown in the following graph. Further the blue dot represents the data point for each of the category type whereas the red line shows the average of each category brought which is 3.
-
-![15](https://github.com/user-attachments/assets/15c4960b-ce71-4ea2-8d2c-e12d041c7e79)
-
 Another correlation graph can be seen in following figure 14 between category which is the x-axis and quantity, y-axis. There are all together 8 different category type as shown in the following graph. Further the blue dot represents the data point for each of the category type whereas the red line shows the average of each category brought which is 3. The following figure 15 is another scatter plot graph showing the correlation between payment method and quantity, as shown in the following figure the blue dot represents the data point for each of the category type whereas the red line shows the average of each category brought which is 3.
 
-![16](https://github.com/user-attachments/assets/f0cd5eae-e4da-4190-ab74-3b78980d09e0)
+![15](https://github.com/user-attachments/assets/15c4960b-ce71-4ea2-8d2c-e12d041c7e79)
 
 3. Regression Modeling the Relationship Between Sales Data
    
@@ -93,48 +89,50 @@ Another correlation graph can be seen in following figure 14 between category wh
 
 In this section of the report, random variable or estimator, often denoted as "θ," helps us understand various aspects of a distribution when we lack actual values. Further the value of "θ," can be multiple, as a result, to find the best fit model we can utilize least squares method. Least square method helps us to identify a line that is best fit as well as showcasing the relation between the independent and the dependent variables (Brooks et al, 1998). Hence, to find the least square we will use the following formula:
 
-![17](https://github.com/user-attachments/assets/cda919b5-b635-4990-9627-28a31b7d89fe)
+![16](https://github.com/user-attachments/assets/f0cd5eae-e4da-4190-ab74-3b78980d09e0)
 
 Further, to find the least square, we first we arrange an input data and combine it with a constant, that are also called predictor variables. In this case we have used "age", "category", "price", and "payment method" as the predictor variables and "quantity" as the response variable. Doing so we obtained the following output which is shown by figure 16. From the following figure 16, we can identify the value of "θhat" for model 1 to be as follows:
 
-![16value](https://github.com/user-attachments/assets/11528835-fa88-4305-9707-36a30c95b30f)
+![17](https://github.com/user-attachments/assets/cda919b5-b635-4990-9627-28a31b7d89fe)
 
 Likewise, the following figure 17 is the output for value of "θhat" for model 2, which is:
 
-![18](https://github.com/user-attachments/assets/fd517a0c-196d-4f89-a2fb-9cef45137d7b)
+![16value](https://github.com/user-attachments/assets/11528835-fa88-4305-9707-36a30c95b30f)
 
 Furthermore, the following figure 18 is the output for value of "θhat" for model 3, which is:
 
-![19](https://github.com/user-attachments/assets/c7cb3e01-05e6-469c-b374-3d2eec76bb6b)
+![18](https://github.com/user-attachments/assets/fd517a0c-196d-4f89-a2fb-9cef45137d7b)
 
 Similarly, the following figure 19 is the output for value of "θhat" for model 4, which is:
 
-![20](https://github.com/user-attachments/assets/866f4b27-073b-4640-ab53-ac9e5320c52d)
+![19](https://github.com/user-attachments/assets/c7cb3e01-05e6-469c-b374-3d2eec76bb6b)
 
 Finally, the following figure 20 is the output for value of "θhat" for model 5, which is:
 
-![21](https://github.com/user-attachments/assets/6d9e3a8e-9c83-4975-85a0-a856c1974f9d)
+![20](https://github.com/user-attachments/assets/866f4b27-073b-4640-ab53-ac9e5320c52d)
 
 3.2. Computing Model Residual Sum of Squared Errors (RSS)
 
 In this section, we check for the model’s RSS value which shows us how closely our estimates align with the real data. RSS is measured by the squared and mean difference between actual values and estimated values, which is the accuracy of the above mentioned 5 models. In the above-mentioned formula ‘i’ is the lower limit whose value is 1, ‘n’ is total number of data point. Likewise, ‘X i’ is the value that contains all possible input values, and ‘θ hat’ is the value obtained from the previous point for each of the five models. Further, following figure 21 shows the RSS value for each of the model (McElreath, 2015).
 
-![22](https://github.com/user-attachments/assets/83798d60-7d93-41c8-95b8-227965cbb7ac)
+![21](https://github.com/user-attachments/assets/6d9e3a8e-9c83-4975-85a0-a856c1974f9d)
 
 3.3. Calculation of Log-Likelihood Functions
 
 Now, in the section, likelihood function will be calculated to observe how a set of parameters explains the observed data. In simpler word, it helps us to identify the actual scores if the guess about the distribution is correct. Now, instead of dealing with the likelihood function directly, we often use the log likelihood. It's like taking the log of a big number to make it easier to work with. The log likelihood still helps us find the best guess for the distribution of scores, but it's simpler to calculate and understand. Further, to calculate the likelihood, variance needs to be calculated initially. As in the following figure 22, the variance and the log-likelihood are calculated (Gelman et al, 2006). Moreover, for the variance and the log-likelihood we can create following tables.
 
-![23](https://github.com/user-attachments/assets/e1f5497a-89a1-4f5d-afbf-fd135f4bd7ee)
+![22](https://github.com/user-attachments/assets/83798d60-7d93-41c8-95b8-227965cbb7ac)
 
 3.4. Calculation of AIC and BIC
 
 AIC (Akaike Information Criterion) and BIC (Bayesian Information Criterion) are the calculation on whose basis models are compared and selected. They balance how well the model fits the data with how complicated it is. AIC looks at how well the model explains the data and how many variables it uses. BIC is similar, but it's stricter with how much it penalizes complexity. Both AIC and BIC help researchers pick the best model that explains the data well without being too complicated. that provides the best explanation of the data while using the fewest parameters, helping researchers make informed decisions about model selection and avoiding overfitting. Following figure 23 shows the output for AIC and BIC along with the number of parameters used (Hastie et al, 2009).
 
-![24](https://github.com/user-attachments/assets/3f893405-5e5d-4f35-9357-027f18437407)
+![23](https://github.com/user-attachments/assets/e1f5497a-89a1-4f5d-afbf-fd135f4bd7ee)
 
 3.5. Analyzing Model Prediction Errors
 The following figures 24, 25, 26, 27, and 28 compares the theoretical quantiles (expected value) with sample quantiles (observed value) for all of the five models. Further, the x-axis of the QQ plot represents the theoretical quantiles, and the y-axis represents the sample quantiles as shown in the figure. Here, if the points on the QQ plot falls close to the diagonal line then it signifies that the expected or theoretical value of the model matches the observed quantiles of the dataset, in simpler terms if the expected value has a close match with observed value, then it is considered to be a good fit. Sine a lot of experiment has been done with the model 1, 2, 4, and 5 don’t have a good fit as model 3, because in model 1, 2, 4 and 5 we can see that the points deviate significantly from the diagonal line. Nonetheless, for model 3 the points on the QQ plot fall close to a diagonal line.
+
+![24](https://github.com/user-attachments/assets/3f893405-5e5d-4f35-9357-027f18437407)
 
 ![25](https://github.com/user-attachments/assets/48391234-124b-4041-b8d7-8139034c4780)
 
