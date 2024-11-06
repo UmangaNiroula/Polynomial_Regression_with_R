@@ -12,8 +12,7 @@ Model 3 outperformed others, achieving the best fit without overcomplicating pre
 
 1. Introduction
 
-This report provides an overview of a customer shopping dataset, that is obtained from different shopping malls of Istanbul from year 2021 to 2023. The data includes information on nearly 100,000 invoices from various customers which is represented by the following figure
-1. Further, there are various customer details included such as gender and age, which makes the understanding of shopping based on gender and age more understandable. Likewise, the dataset provided shows what customers are buying (category), how much they're buying (quantity) and how much they're spending (price). It will also examine how customers are paying (payment method) and when (invoice _date) and where (shopping_mall) they are making their purchases.
+This report provides an overview of a customer shopping dataset, that is obtained from different shopping malls of Istanbul from year 2021 to 2023. The data includes information on nearly 100,000 invoices from various customers which is represented by the following figure 1. Further, there are various customer details included such as gender and age, which makes the understanding of shopping based on gender and age more understandable. Likewise, the dataset provided shows what customers are buying (category), how much they're buying (quantity) and how much they're spending (price). It will also examine how customers are paying (payment method) and when (invoice _date) and where (shopping_mall) they are making their purchases.
 
 ![2](https://github.com/user-attachments/assets/6ccf6586-b6a0-4154-8ca1-d0ab5526b855)
 
